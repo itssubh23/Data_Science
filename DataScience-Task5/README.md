@@ -65,9 +65,6 @@ Build a regression model that learns how advertising money affects sales, and fi
 ### Pairplot
 ![Pairplot](Images/Pairplot.png)
 
-### Residual plot
-![Residual_plot](Images/Residual_plot.png)
-
 TV and Sales show a clear straight-line pattern.
 
 ### Sales vs TV
@@ -81,7 +78,7 @@ Strong upward trend. More TV spend means more sales.
 Upward trend, but the points are more spread out.
 
 ### Sales vs Newspaper
-![Sales vs Newspaper](Images/Sales_vs__Newspaper.png)
+![Sales vs Newspaper](Images/Sales_vs_Newspaper.png)
 
 Points are scattered everywhere. Very weak relationship.
 
@@ -121,6 +118,8 @@ Random Forest explains about 98% of the change in sales. Its average error is le
 ![Residual Plot](images/residual_plot.png)
 
 Residual = Actual sales − Predicted sales.
+
+![Distribution_Residual](Images/Distribution_Residual.png)
 
 **Observation:** The points are randomly spread around the zero line with no curve or funnel shape. The average error is close to 0 (-0.03). So the errors are random, not systematic, and the model is reliable.
 
@@ -176,4 +175,4 @@ Residual = Actual sales − Predicted sales.
 
 ## 👤 Author
 
-Your Name
+  SHUBHAM TIWARI
