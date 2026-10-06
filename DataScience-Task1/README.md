@@ -1,48 +1,41 @@
 # Iris Flower Classification
 
 ## About
-This project predicts the species of an iris flower (Setosa, Versicolor or Virginica) using its measurements: sepal length, sepal width, petal length and petal width.
-
-## Dataset
-The Iris dataset from scikit-learn (`load_iris()`). It has 150 rows, 4 features and 3 species (50 each). No missing values.
+This project predicts the species of an iris flower (Setosa, Versicolor or Virginica) from its measurements.
 
 ## Tools Used
 Python, pandas, matplotlib, seaborn, scikit-learn, Jupyter Notebook
 
-## What I Did
-1. Loaded the dataset
-2. Explored the data (shape, data types, null values, statistics)
-3. Made graphs: pairplot and box plots
-4. Found the most useful features
-5. Split the data into 80% training and 20% testing
+## Dataset
+Iris dataset from scikit-learn (`load_iris()`): 150 rows, 4 features, 3 species (50 each), no missing values.
+
+## Steps
+1. Loaded the data
+2. Did EDA (shape, data types, null values, statistics)
+3. Made graphs (pairplot and box plots)
+4. Picked the best features
+5. Split data: 80% train, 20% test
 6. Trained 3 models: Logistic Regression, KNN, Decision Tree
-7. Checked each model using accuracy, confusion matrix and classification report
-8. Picked the best model
+7. Checked accuracy, confusion matrix and classification report
+8. Chose the best model
 
----
+## Graphs
 
-## Visualisations
+### Pairplot
+![Pairplot](Screenshot/pairplot.png)
 
-### 1. Pairplot
-Each small graph compares two features. Colours show the species.
+Setosa is clearly separate. Versicolor and Virginica overlap a little.
 
-![Pairplot](Screenshot/Pairplot.png)
+### Box Plots
+![Box plots](Screenshot/boxplots.png)
 
-**Observation:** Setosa (blue) is clearly separate from the other two. Versicolor and Virginica overlap a little.
+Petal length and petal width separate the species best. Sepal width overlaps the most.
 
-### 2. Box Plots
-Box plots for each feature, split by species.
-
-![Box plots](Screenshot/Boxplots.png)
-
-**Observation:** Petal length and petal width show almost no overlap between species, so they are the best features. Sepal width overlaps a lot, so it is the least useful.
-
-### 3. Confusion Matrices
-Rows = actual species, columns = predicted species. Numbers on the diagonal are correct predictions.
+### Confusion Matrices
 
 **Logistic Regression**
 
-![Logistic Regression](Screenshot/LogisticRegression.png)
+![Logistic Regression](Screenshot/Logistic_Regression.png)
 
 **KNN**
 
@@ -50,12 +43,11 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **Decision Tree**
 
-![Decision Tree](Screenshot/DecisionTree.png)
----
+![Decision Tree](Screenshot/Decision_Tree.png)
 
-## Key Findings
-- Petal length and petal width separate the species best.
-- Sepal width overlaps a lot, so it is less useful.
+## Findings
+- Petal length and petal width are the most useful features.
+- Sepal width is the least useful.
 - Setosa is easy to identify. Versicolor and Virginica are sometimes confused.
 
 ## Results
@@ -65,17 +57,15 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 | KNN | 100% |
 | Decision Tree | 93.33% |
 
-**Best model:** KNN, because it has the highest accuracy and made no wrong predictions on the test set.
-(Note: the test set has only 30 flowers, so the models are very close to each other.)
+**Best model:** KNN, because it has the highest accuracy and no wrong predictions on the test set. The test set has only 30 flowers, so the models are close.
 
 ## How to Run
+1. Install the libraries:
 ```
 pip install pandas matplotlib seaborn scikit-learn notebook
+```
+2. Start Jupyter:
+```
 jupyter notebook
 ```
-Open `01_Task.ipynb` and click **Kernel → Restart & Run All**.
-
-## Files
-- `01_Task.ipynb` : the full project code
-- `images/` : all graphs used in this README
-- `README.md` : this file
+3. Open `01_Task.ipynb` and click **Kernel → Restart & Run All**.
