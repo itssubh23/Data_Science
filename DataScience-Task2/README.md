@@ -31,7 +31,7 @@ A simple data analysis project that shows how unemployment in India changed acro
 - Lowest: **Meghalaya (3.87%)**, **Assam (4.86%)**, **Gujarat (6.38%)**
 - Highest zone: **North (15.89%)**, lowest zone: **West (8.24%)**
 
-![Top 10 states](images/Top10_States.png)
+![Top 10 states](Images/Top10_States.png)
 
 ### Pre-COVID vs Post-COVID
 
@@ -44,17 +44,17 @@ A simple data analysis project that shows how unemployment in India changed acro
 - Biggest increase: **Puducherry (+23.95)**, **Jharkhand (+13.30)**, **Tamil Nadu (+12.62)**
 - Some states went down: **Sikkim (-15.75)**, **Tripura (-7.55)**, **Jammu & Kashmir (-3.96)**
 
-![Pre vs Post COVID](images/Pre_Post_COVID.png)
+![Pre vs Post COVID](Images/Pre_Post_COVID.png)
 
 ### Selected States Over Time
 
-![State time series](images/Timeseries.png)
+![State time series](Images/Timeseries.png)
 
 ### Correlation
 
 - All relationships are weak (unemployment vs employed: -0.25)
 
-![Heatmap](images/Correlation_Heatmap.png)
+![Heatmap](Images/Correlation_Heatmap.png)
 
 ## Observations
 
