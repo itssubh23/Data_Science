@@ -74,6 +74,8 @@ A simple data analysis project that shows how unemployment in India changed acro
 - Only monthly data for a short period
 - Averages are not adjusted for state population
 
-## Author
 
-SHUBHAM TIWARI
+## 👤 Author
+
+  SHUBHAM TIWARI
+
