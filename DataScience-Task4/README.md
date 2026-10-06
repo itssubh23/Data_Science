@@ -138,3 +138,8 @@ predict_message("Hey, are we meeting for lunch tomorrow?")                     #
 Multinomial Naive Bayes gave the best balance of precision and recall for spam
 detection. Future improvements: try SVM, use word pairs (`ngram_range=(1,2)`),
 and handle the class imbalance to improve recall.
+
+## 👤 Author
+
+  SHUBHAM TIWARI
+
