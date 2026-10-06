@@ -22,10 +22,10 @@ Find regional and time-based trends in unemployment, and measure how much the CO
 ## 📂 Project Files
 
 ```
-├── Unemployment_Analysis.ipynb            # main notebook
-├── Unemployment_Rate_upto_11_2020.csv     # dataset
 ├── images/                                # graphs used in this README
-└── README.md
+├── README.md
+├── Unemployment_Analysis.ipynb            # main notebook
+└── Unemployment_Rate_upto_11_2020.csv     # dataset
 ```
 
 ---
