@@ -127,7 +127,7 @@ Residual = Actual sales − Predicted sales.
 
 ## 💡 Which Channel Matters Most?
 
-![Feature Importance](images/feature_importance.png)
+![Feature Importance](Images/Feature_importance.png)
 
 **Random Forest feature importance:**
 
