@@ -175,4 +175,4 @@ Residual = Actual sales − Predicted sales.
 
 ## 👤 Author
 
-  SHUBHAM TIWARI
+  ## SHUBHAM TIWARI
