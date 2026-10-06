@@ -34,6 +34,8 @@ A simple data analysis project that shows how unemployment in India changed acro
 - Top 3 states by average unemployment: **Haryana (27.48%)**, **Tripura (25.05%)**, **Jharkhand (19.54%)**
 - Lowest 3 states: **Meghalaya (3.87%)**, **Assam (4.86%)**, **Gujarat (6.38%)**
 - Highest zone: **North (15.89%)**, lowest zone: **West (8.24%)**
+  ![AverageUnemployment](Screenshot/AverageUnemployment.png)
+  
 
 ## Pre-COVID vs Post-COVID
 
