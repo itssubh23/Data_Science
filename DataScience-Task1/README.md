@@ -22,12 +22,12 @@ Iris dataset from scikit-learn (`load_iris()`): 150 rows, 4 features, 3 species 
 ## Graphs
 
 ### Pairplot
-![Pairplot](Screenshot/pairplot.png)
+![Pairplot](Images/Pairplot.png)
 
 Setosa is clearly separate. Versicolor and Virginica overlap a little.
 
 ### Box Plots
-![Box plots](Screenshot/boxplots.png)
+![Box plots](Images/Box_plots.png)
 
 Petal length and petal width separate the species best. Sepal width overlaps the most.
 
@@ -35,15 +35,15 @@ Petal length and petal width separate the species best. Sepal width overlaps the
 
 **Logistic Regression**
 
-![Logistic Regression](Screenshot/Logistic_Regression.png)
+![Logistic Regression](Images/Logistic_Regression.png)
 
 **KNN**
 
-![KNN](Screenshot/KNN.png)
+![KNN](Images/KNN.png)
 
 **Decision Tree**
 
-![Decision Tree](Screenshot/Decision_Tree.png)
+![Decision Tree](Images/Decision_Tree.png)
 
 ## Findings
 - Petal length and petal width are the most useful features.
