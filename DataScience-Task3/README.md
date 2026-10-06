@@ -159,6 +159,4 @@ The model can predict used car prices fairly well using basic car details. Tree-
 ---
 
 ## 👤 Author
-
-Your Name
-[GitHub](https://github.com/your-username) | [LinkedIn](https://linkedin.com/in/your-profile)
+SHUBHAM TIWARI
