@@ -46,7 +46,7 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **KNN**
 
-![KNN](DataScience-Task1/Screenshot/KNN.png)
+![KNN](Screenshot/KNN.png)
 
 **Decision Tree**
 
