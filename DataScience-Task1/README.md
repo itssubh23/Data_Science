@@ -69,3 +69,9 @@ pip install pandas matplotlib seaborn scikit-learn notebook
 jupyter notebook
 ```
 3. Open `01_Task.ipynb` and click **Kernel → Restart & Run All**.
+
+
+## 👤 Author
+
+  SHUBHAM TIWARI
+
