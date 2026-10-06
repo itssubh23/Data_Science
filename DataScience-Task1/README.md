@@ -26,14 +26,14 @@ Python, pandas, matplotlib, seaborn, scikit-learn, Jupyter Notebook
 ### 1. Pairplot
 Each small graph compares two features. Colours show the species.
 
-![Pairplot](Screenshot/pairplot.png)
+![Pairplot](DataScience-Task1/Screenshot/Pairplot.png)
 
 **Observation:** Setosa (blue) is clearly separate from the other two. Versicolor and Virginica overlap a little.
 
 ### 2. Box Plots
 Box plots for each feature, split by species.
 
-![Box plots](Screenshot/boxplots.png)
+![Box plots](DataScience-Task1/Screenshot/Boxplot.png)
 
 **Observation:** Petal length and petal width show almost no overlap between species, so they are the best features. Sepal width overlaps a lot, so it is the least useful.
 
@@ -42,8 +42,40 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **Logistic Regression**
 
-![Logistic Regression](Screenshot/cm_logistic_regression.png)
+![Logistic Regression](DataScience-Task1/Screenshot/Visualization.png)
 
 **KNN**
 
-![KNN](im
+![KNN](DataScience-Task1/Screenshot/KNN.png)
+
+**Decision Tree**
+
+![Decision Tree](DataScience-Task1/Screenshot/Pairplot.png)
+---
+
+## Key Findings
+- Petal length and petal width separate the species best.
+- Sepal width overlaps a lot, so it is less useful.
+- Setosa is easy to identify. Versicolor and Virginica are sometimes confused.
+
+## Results
+| Model | Accuracy |
+|---|---|
+| Logistic Regression | 96.67% |
+| KNN | 100% |
+| Decision Tree | 93.33% |
+
+**Best model:** KNN, because it has the highest accuracy and made no wrong predictions on the test set.
+(Note: the test set has only 30 flowers, so the models are very close to each other.)
+
+## How to Run
+```
+pip install pandas matplotlib seaborn scikit-learn notebook
+jupyter notebook
+```
+Open `01_Task.ipynb` and click **Kernel → Restart & Run All**.
+
+## Files
+- `01_Task.ipynb` : the full project code
+- `images/` : all graphs used in this README
+- `README.md` : this file
