@@ -50,7 +50,7 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **Decision Tree**
 
-![Decision Tree]((Screenshot/Decision_Tree.png)
+![Decision Tree](Screenshot/DecisionTree.png)
 ---
 
 ## Key Findings
