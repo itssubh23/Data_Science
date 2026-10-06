@@ -29,60 +29,38 @@ Made a heatmap to see how unemployment, employed people, and labour participatio
 Compared pre-COVID and post-COVID averages (cut-off date: 1 April 2020)
 Key findings
 
-=======================================================
-KEY FINDINGS
-=======================================================
+Month-wise trend
 
-1. MONTH-WISE TREND
-   - Peak unemployment: May 2020 at 23.24%
-   - Lowest unemployment: October 2020 at 8.03%
-   - Last month in data: October 2020 at 8.03%
+Unemployment peaked in May 2020 at 23.24%
+It fell to 8.03% by October 2020, which is even below the pre-COVID average
 
-2. HIGHEST AVERAGE UNEMPLOYMENT (TOP 3 STATES)
-   - Haryana: 27.48%
-   - Tripura: 25.05%
-   - Jharkhand: 19.54%
+States
 
-3. LOWEST AVERAGE UNEMPLOYMENT (BOTTOM 3 STATES)
-   - Gujarat: 6.38%
-   - Assam: 4.86%
-   - Meghalaya: 3.87%
+Highest average unemployment: Haryana (27.48%), Tripura (25.05%), Jharkhand (19.54%)
+Lowest average unemployment: Meghalaya (3.87%), Assam (4.86%), Gujarat (6.38%)
 
-4. ZONE-WISE AVERAGE
-   - North: 15.89%
-   - East: 13.92%
-   - Northeast: 10.95%
-   - South: 10.45%
-   - West: 8.24%
+Zones
 
-5. PRE-COVID vs POST-COVID
-   - Pre-COVID unemployment : 9.76%
-   - Post-COVID unemployment: 13.28%
-   - Post-COVID is 1.36 times the pre-COVID rate
-   - Pre-COVID labour participation : 44.18%
-   - Post-COVID labour participation: 40.63%
+Highest: North (15.89%)
+Lowest: West (8.24%)
 
-6. BIGGEST INCREASE AFTER COVID (TOP 3 STATES)
-   - Puducherry: +23.95 percentage points
-   - Jharkhand: +13.30 percentage points
-   - Tamil Nadu: +12.62 percentage points
+Pre-COVID vs post-COVID
 
-7. SMALLEST INCREASE AFTER COVID (BOTTOM 3 STATES)
-   - Jammu & Kashmir: -3.96 percentage points
-   - Tripura: -7.55 percentage points
-   - Sikkim: -15.75 percentage points
+	Pre-COVID	Post-COVID
+Unemployment rate	9.76%	13.28%
+Labour participation rate	44.18%	40.63%
+The post-COVID unemployment rate is 1.36 times the pre-COVID rate
+Fewer people were working or looking for work after the lockdown
 
-8. CORRELATIONS
-   - Unemployment vs Employed          : -0.25
-   - Employed vs Labour participation  : -0.05
-   - Unemployment vs Labour participation: -0.07
+Biggest change after COVID
 
-=======================================================
+Largest increase: Puducherry (+23.95 points), Jharkhand (+13.30), Tamil Nadu (+12.62)
+Some states went down: Sikkim (-15.75), Tripura (-7.55), Jammu & Kashmir (-3.96)
 
-Unemployment was fairly stable before the lockdown, then rose sharply in April-May 2020
-State with the highest average unemployment: your answer here
-Biggest rise after COVID: your answer here
-Pre-COVID average: X%, Post-COVID average: Y%
+Correlation
+
+All relationships are weak (unemployment vs employed: -0.25, employed vs labour participation: -0.05, unemployment vs labour participation: -0.07)
+Unemployment and the number of employed people have a small negative link, which makes sense
 How to run
 Download the dataset from Kaggle and keep the CSV in the same folder as the notebook
 Install the libraries:
@@ -96,3 +74,4 @@ Limitations
 Only monthly data, and for a short time period
 State averages are not adjusted for population size
 The post-COVID average includes both the lockdown peak and the recovery months
+Employed is a count of people, not a rate, so it depends on the size of each state
