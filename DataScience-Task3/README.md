@@ -68,19 +68,19 @@ Since price is a number, this is a **regression** problem.
 ## 📊 Graphs
 
 ### Distribution of Selling Price
-![Price Distribution](images/Price_Distribution.png)
+![Price Distribution](Images/Price_Distribution.png)
 
 ### Selling Price vs Fuel Type
-![Price vs Fuel](images/Price_vs_Fuel.png)
+![Price vs Fuel](Images/Price_vs_Fuel.png)
 
 ### Selling Price vs Car Age
-![Price vs Age](images/Price_vs_age.png)
+![Price vs Age](Images/Price_vs_age.png)
 
 ### Correlation Heatmap
-![Heatmap](images/Heatmap.png)
+![Heatmap](Images/Heatmap.png)
 
 ### Top 10 Important Features
-![Feature Importance](images/Feature_importance.png)
+![Feature Importance](Images/Feature_importance.png)
 
 ---
 
