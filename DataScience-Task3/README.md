@@ -145,18 +145,18 @@ The model can predict used car prices fairly well using basic car details. Tree-
 ## 📁 Project Structure
 
 ```
-├── car_price_prediction.ipynb
-├── CAR DETAILS FROM CAR DEKHO.csv
 ├── images/
 │   ├── price_distribution.png
 │   ├── price_vs_fuel.png
 │   ├── price_vs_age.png
 │   ├── heatmap.png
 │   └── feature_importance.png
+├── CAR DETAILS FROM CAR DEKHO.csv
+├── car_price_prediction.ipynb
 └── README.md
 ```
 
 ---
 
 ## 👤 Author
-SHUBHAM TIWARI
+## SHUBHAM TIWARI
