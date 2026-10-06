@@ -26,14 +26,14 @@ Python, pandas, matplotlib, seaborn, scikit-learn, Jupyter Notebook
 ### 1. Pairplot
 Each small graph compares two features. Colours show the species.
 
-![Pairplot](DataScience-Task1/Screenshot/Pairplot.png)
+![Pairplot](Screenshot/Pairplot.png)
 
 **Observation:** Setosa (blue) is clearly separate from the other two. Versicolor and Virginica overlap a little.
 
 ### 2. Box Plots
 Box plots for each feature, split by species.
 
-![Box plots](DataScience-Task1/Screenshot/Boxplot.png)
+![Box plots](Screenshot/Boxplot.png)
 
 **Observation:** Petal length and petal width show almost no overlap between species, so they are the best features. Sepal width overlaps a lot, so it is the least useful.
 
@@ -42,7 +42,7 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **Logistic Regression**
 
-![Logistic Regression](DataScience-Task1/Screenshot/Visualization.png)
+![Logistic Regression](Screenshot/logistic_regression.png)
 
 **KNN**
 
@@ -50,7 +50,7 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **Decision Tree**
 
-![Decision Tree](DataScience-Task1/Screenshot/Pairplot.png)
+![Decision Tree]((Screenshot/Decision_Tree.png)
 ---
 
 ## Key Findings
