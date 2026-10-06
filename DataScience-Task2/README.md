@@ -34,7 +34,7 @@ A simple data analysis project that shows how unemployment in India changed acro
 - Top 3 states by average unemployment: **Haryana (27.48%)**, **Tripura (25.05%)**, **Jharkhand (19.54%)**
 - Lowest 3 states: **Meghalaya (3.87%)**, **Assam (4.86%)**, **Gujarat (6.38%)**
 - Highest zone: **North (15.89%)**, lowest zone: **West (8.24%)**
-  ![AverageUnemployment](Screenshot/AverageUnemployment.png)
+  ![AverageUnemployment](Screenshot/Top10States.png)
   
 
 ## Pre-COVID vs Post-COVID
@@ -43,17 +43,20 @@ A simple data analysis project that shows how unemployment in India changed acro
 |---|---|---|
 | Unemployment rate | 9.76% | 13.28% |
 | Labour participation rate | 44.18% | 40.63% |
+![Pre_vs_Post_COVID](Screenshot/Pre_vs_Post_COVID.png)
 
 - Post-COVID unemployment is **1.36 times** higher
 - Fewer people were working or looking for work after the lockdown
 - Biggest increase: **Puducherry (+23.95)**, **Jharkhand (+13.30)**, **Tamil Nadu (+12.62)**
 - Some states went down: **Sikkim (-15.75)**, **Tripura (-7.55)**, **Jammu & Kashmir (-3.96)**
+![Timeseries](Screenshot/Timeseries.png)
 
 ## Observations
 
 - The lockdown caused a sharp but short spike in unemployment
 - The correlations are weak (unemployment vs employed: -0.25)
 - `Employed` is a headcount, not a rate, so it depends on state size
+![Heatmap](Screenshot/Heatmap.png)
 
 ## How to Run
 
