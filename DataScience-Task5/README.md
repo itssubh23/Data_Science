@@ -83,7 +83,7 @@ Upward trend, but the points are more spread out.
 Points are scattered everywhere. Very weak relationship.
 
 ### Correlation Heatmap
-![Heatmap](images/Heatmap.png)
+![Heatmap](Images/Heatmap.png)
 
 | Channel   | Correlation with Sales |
 |-----------|------------------------|
@@ -115,7 +115,7 @@ Random Forest explains about 98% of the change in sales. Its average error is le
 
 ## 📉 Residual Plot
 
-![Residual Plot](images/residual_plot.png)
+![Residual Plot](Images/Residual_plot.png)
 
 Residual = Actual sales − Predicted sales.
 
