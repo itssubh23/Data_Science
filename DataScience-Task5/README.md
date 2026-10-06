@@ -23,10 +23,10 @@ Build a regression model that learns how advertising money affects sales, and fi
 ## 📂 Project Files
 
 ```
-├── Sales_Prediction.ipynb              # main notebook
-├── advertising budget and sales.csv    # dataset
 ├── images/                             # graphs used in this README
-└── README.md
+├── advertising budget and sales.csv    # dataset
+├──  README.md
+└──Sales_Prediction.ipynb              # main notebook
 ```
 
 ---
