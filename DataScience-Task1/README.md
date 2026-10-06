@@ -33,7 +33,7 @@ Each small graph compares two features. Colours show the species.
 ### 2. Box Plots
 Box plots for each feature, split by species.
 
-![Box plots](Screenshot/Box_plots.png)
+![Box plots](Screenshot/Boxplots.png)
 
 **Observation:** Petal length and petal width show almost no overlap between species, so they are the best features. Sepal width overlaps a lot, so it is the least useful.
 
@@ -42,7 +42,7 @@ Rows = actual species, columns = predicted species. Numbers on the diagonal are 
 
 **Logistic Regression**
 
-![Logistic Regression](Screenshot/Logistic_Regression.png)
+![Logistic Regression](Screenshot/LogisticRegression.png)
 
 **KNN**
 
